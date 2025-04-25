@@ -14,7 +14,7 @@ body {
 }
 
 .frame {
-  background: rgba(255, 255, 255, 5.0);
+  background: rgba(255, 255, 255, 0.9);
   padding: 40px;
   border-radius: 20px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
@@ -23,7 +23,6 @@ body {
   text-align: center;
   backdrop-filter: blur(10px); 
 }
-
 
 .hidden {
   display: none;
@@ -74,6 +73,12 @@ input {
   margin-top: 10px;
 }
 
+textarea {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  resize: none;
+}
+
 .search-box {
   display: flex;
   gap: 10px;
@@ -82,4 +87,10 @@ input {
 
 .search-box input {
   flex: 1;
+}
+
+.btn-row {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
 }
